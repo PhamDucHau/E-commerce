@@ -1,3 +1,6 @@
+.title-list{
+    min-width: 40rem;
+}
 .list-product{
     display: flex;
     flex-direction: column;
@@ -34,6 +37,9 @@
     overflow-y: auto;    
 }
 @media(max-width:800px){
+    .title-list{
+        min-width: 0rem;
+    }
     .list-product{
         box-sizing: border-box;
         width: 95%;
